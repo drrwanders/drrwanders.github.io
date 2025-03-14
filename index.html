@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>drr wanders</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f7f4ee;
+      font-size: 24px;
+      color: #333;
+    }
+    
+    .container {
+      position: relative;
+      top: -35vh; /* This positions the content 15% from top */
+      text-align: center;
+      width: 100%;
+    }
+    
+    .heavier {
+      font-family: 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    
+    .lighter {
+      font-family: 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+      font-weight: 300;
+    }
+    
+    .line-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .line {
+      position: absolute;
+      height: 1.5px;
+      background-color: #9e2b25;
+      left: 0;
+      width: calc(47vw);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="heavier">drr</span> 
+    <span class="line-container">
+      <span class="lighter">wanders</span>
+      <div class="line"></div>
+    </span>
+  </div>
+</body>
+</html>
